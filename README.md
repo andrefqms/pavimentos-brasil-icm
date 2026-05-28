@@ -84,6 +84,7 @@ Este projeto utiliza pseudo-labels gerados automaticamente pelo GroundingDINO, o
 pavimentos-brasil-icm/
 ├── data/
 │   └── Kaggle/
+│   └── raw data and processed -> https://zenodo.org/records/20433455
 ├── src/
 │   ├── 01_eda.py
 │   ├── 02_preprocessing.py
