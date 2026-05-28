@@ -1,0 +1,37 @@
+{
+  "modelo": "yolov8m.pt",
+  "arquitetura": "YOLOv8",
+  "dataset": "Pavimentos-Brasil",
+  "classes": [
+    "buraco",
+    "remendo",
+    "trinca",
+    "sinalizacao_vertical",
+    "sinalizacao_horizontal",
+    "drenagem",
+    "vegetacao"
+  ],
+  "num_classes": 7,
+  "img_size": 640,
+  "conf_thresh": 0.25,
+  "iou_thresh": 0.45,
+  "pesos_icm": {
+    "buraco": 5,
+    "remendo": 2,
+    "trinca": 3,
+    "sinalizacao_vertical": 1,
+    "sinalizacao_horizontal": 1,
+    "drenagem": 2,
+    "vegetacao": 1
+  },
+  "exportado_em": "2026-05-28T13:08:43",
+  "arquivos": {
+    "onnx": "C:\\pavimentos\\models\\export\\pavimentos_yolov8.onnx",
+    "torchscript": "C:\\pavimentos\\models\\export\\pavimentos_yolov8_torchscript.torchscript",
+    "pytorch_pt": "C:\\pavimentos\\models\\export\\pavimentos_yolov8_best.pt"
+  },
+  "mAP50": 0.7254012807723517,
+  "mAP50_95": 0.6321753905960085,
+  "precision": 0.7614270959944412,
+  "recall": 0.7738561577655094
+}

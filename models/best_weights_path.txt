@@ -1,0 +1,1 @@
+C:\pavimentos\models\runs\pavimentos_yolov8\weights\best.pt

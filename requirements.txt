@@ -1,0 +1,14 @@
+ultralytics
+roboflow
+supervision
+opencv-python
+groundingdino-py
+transformers==4.41.0
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+Pillow
+tqdm
+PyYAML
